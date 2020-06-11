@@ -98,7 +98,7 @@ export default class RightSectionList extends Component {
         </View>;
 
         return (
-          <View key={index} ref={'sectionItem' + index} pointerEvents="none">
+          <View style={{padding:5}} key={index} ref={'sectionItem' + index} pointerEvents="none">
             {child}
           </View>
         );
